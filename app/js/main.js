@@ -24,4 +24,6 @@ $(function () {
     e.target.classList.add("trip__bar-item--active");
   })
 
+  
+
 });

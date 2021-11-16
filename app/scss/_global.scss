@@ -1,23 +1,53 @@
-body{
+body {
   background-color: #011627;
 }
-.container{
+.container {
   max-width: 1470px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.title{
+.title {
   @extend %noe-700;
   font-size: 72px;
   line-height: 110%;
   letter-spacing: -0.02em;
 }
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #fff;
 }
-p{
+p {
   color: #fff;
 }
-a{
+a {
   color: #fff;
+}
+.button {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 190%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  @extend %lar-700;
+  color: #fff;
+  padding: 19px 47px;
+  background: #00c9e0;
+  box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+  border-radius: 183px;
+  cursor: pointer;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
