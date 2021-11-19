@@ -17,10 +17,30 @@
           <a class="header__top-link" href="#">
             <img class="header__top-logo" src="images/header/logo.svg" alt="logo">
           </a>
-          <div class="header__top-box">
-            <img class="header__top-search" src="images/header/search.svg" alt="search">
+          <div class="header__top-box">  
+            <form class="header__top-form" action="#"">
+              <input class="header__top-search" type="text" placeholder="Поиск..">
+              <button class="header__top-sbtn" type="submit"></button>
+            </form>
             <div class="header__top-btn">menu</div>
           </div>
+          <div class="header__top-mob" type="button"></div>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__item-link" href="#">О нас</a>
+              </li>
+              <li class="header__item">
+                <a class="header__item-link" href="#">Контакты</a>
+              </li>
+              <li class="header__item">
+                <a class="header__item-link" href="#">Адрес</a>
+              </li>
+              <li class="header__item">
+                <a class="header__item-link" href="#">Гарантии</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div class="header__center">
           <h1 class="header__title title">Night Trips</h1>
@@ -49,7 +69,7 @@
     </div>
   </header>
 
-  <section class="trip">
+   <section class="trip">
     <div class="container">
       <div class="trip__box">
         <h2 class="trip__title title">Pick your trip</h2>
@@ -59,12 +79,13 @@
         </p>
       </div>
       <div class="trip__bar">
-        <a href="#slide-1" class="trip__bar-item trip__bar-item--active">Chill Adventure</a>
-        <a href="#slide-2" class="trip__bar-item">Spooky Times</a>
-        <a href="#slide-3" class="trip__bar-item">Desert Madness</a>
-        <a href="#slide-4" class="trip__bar-item">Out in the wild</a>
+        <a href="#slide-1" class="trip__bar-item trip__bar-item-1 trip__bar-item--active">Chill Adventure</a>
+        <a href="#slide-2" class="trip__bar-item trip__bar-item-2">Spooky Times</a>
+        <a href="#slide-3" class="trip__bar-item trip__bar-item-3">Desert Madness</a>
+        <a href="#slide-4" class="trip__bar-item trip__bar-item-4">Out in the wild</a>
       </div>
-      <div class="trip__modul">
+
+       <div class="trip__modul">
         <div class="trip__slide-box">
           <p class="trip__slide-num">01.</p>
           <p class="trip__slide-text">
@@ -106,7 +127,7 @@
             adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis
             tortor vel, mattis.
           </p>
-          <div class="trip__info-link button">SEE OUR LATEST OFFER</div>
+          <a class="trip__info-link button" href="#">SEE OUR LATEST OFFER</a>
         </div>
         <div class="trip__socials">
           <h6 class="trip__socials-title">SHARE IT:</h6>
@@ -126,6 +147,8 @@
     </div>
   </section>
 
+  
+
   <section class="about">
     <div class="container">
       <div class="about__wrapper">
@@ -144,7 +167,7 @@
           <p class="about__info-text about__info-text--bold">
             With💖from Amsterdam, Netherlands.
           </p>
-          <div class="about__info-link button">READ MORE ABOUT US</div>
+          <a class="about__info-link button" href="#">READ MORE ABOUT US</a>
         </div>
         <div class="about__gallery">
           <div class="about__gallery-item about__gallery-item--active">
@@ -152,7 +175,7 @@
             <img src="images/about/1.jpg" alt="image">
           </div>
           <div class="about__gallery-item">
-            <p class="about__gallery-work">Amanda Woody, <span>back-end</span></p>
+            <p class="about__gallery-work">Ama Woody, <span>back-end</span></p>
             <img src="images/about/2.jpg" alt="image">
           </div>
           <div class="about__gallery-item">
@@ -167,6 +190,8 @@
       </div>
     </div>
   </section>
+
+  
 
   <section class="people">
     <div class="container">
@@ -243,6 +268,8 @@
     </div>
   </section>
 
+  
+
   <footer class="footer">
     <div class="container">
       <div class="footer__items">
@@ -288,7 +315,7 @@
         </div>
       </div>
       <div class="footer__copy">
-        <a class="footer__author" href="#"><span>developed by</span> Kravchenko Vladislav</a>
+        <a class="footer__author" href="#"><span>developed by</span> Vladislav Kravchenko</a>
       </div>
       <div class="footer__logo">
         <a class="footer__link" href="#">
